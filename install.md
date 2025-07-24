@@ -57,7 +57,7 @@ https://docs.astral.sh/uv/getting-started/installation/
 For local setup, make sure you use the right database credentials, preferably use a fresh new db for testing purposes.
 `Do not leave the db host part empty`, it defaults to `db` for docker setup, but for local setup, it should be localhost. (I know the prompt says localhost, I havnet updated the prompt yet)
 
-Keep the `use` `docker` part as `false`
+Keep the `use_docker` part as `false`
 
 ```json
 {
