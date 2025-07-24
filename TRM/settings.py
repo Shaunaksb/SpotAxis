@@ -231,17 +231,17 @@ DATABASES = {
         'NAME': os.getenv('db_name'),
         'USER': os.getenv('db_user'),
         'PASSWORD': os.getenv('db_password'),
-        'HOST': os.getenv('db_host'),
-        'PORT': os.getenv('db_port') or os.getenv('db_host'),
+        'HOST': os.getenv('db_host', 'db'),
+        'PORT': os.getenv('db_port', '3306'),
     }
 }
 
 # Media & Static Files
 MEDIA_ROOT = os.getenv('media_root', os.path.join(PROJECT_PATH, 'media'))
 MEDIA_URL = os.getenv('media_url', 'http://spotaxis.com/media/')
-STATIC_ROOT = os.getenv('static_root', '')
+STATIC_ROOT = os.getenv('STATIC_ROOT') or os.path.join(PROJECT_PATH, 'staticfiles')
 STATICFILES_DIRS = [
-    os.getenv('static_dir') or os.path.join(PROJECT_PATH, 'static')
+    os.getenv('STATIC_DIR') or os.path.join(PROJECT_PATH, 'TRM', 'static')
 ]
 
 # Site URL
