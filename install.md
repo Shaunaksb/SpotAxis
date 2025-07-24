@@ -3,7 +3,7 @@
 ## Clone the repository
 
 ```bash
-git clone https://github.com/Assystant/SpotAxis.git
+git clone https://github.com/Shaunaksb/SpotAxis.git
 ```
 
 Make sure you are cloning all the branches, not just the default develop branch
@@ -14,10 +14,10 @@ Make sure you are cloning all the branches, not just the default develop branch
 cd SpotAxis
 ```
 
-## Even though this is the default branch, still make sure that you are on the `develop` branch
+## Even though this is the default branch, still make sure that you are on the `149-enchancement-docker-2` branch
 
 ```bash
-git checkout develop
+git checkout 149-enchancement-docker-2
 ```
 
 ## Install MySQL and create a database
