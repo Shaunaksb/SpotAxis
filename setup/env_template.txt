@@ -37,5 +37,3 @@ github_oauth_secret='9e17b019a9d6fb3b6b843a4d462006ffb8d0dfa0'
 stackoverflow_oauth_key='8932'
 stackoverflow_oauth_secret='qREi*HWy7c6xpMlnhSqjiQ(('
 stackeoverflow_oauth_requestkey='XDR1z6q3cmTZlOA**gbjPA(('
-STATICFILES_DIR=./staticfiles
-STATIC_DIR=./TRM/static
