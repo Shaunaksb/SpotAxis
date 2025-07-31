@@ -241,7 +241,7 @@ MEDIA_ROOT = os.getenv('media_root', os.path.join(PROJECT_PATH, 'media'))
 MEDIA_URL = os.getenv('media_url', 'http://spotaxis.com/media/')
 STATIC_ROOT = os.getenv('STATIC_ROOT') or os.path.join(PROJECT_PATH, 'staticfiles')
 STATICFILES_DIRS = [
-    os.getenv('STATIC_DIR') or os.path.join(PROJECT_PATH, 'TRM', 'static')
+    os.getenv('STATIC_DIR') or os.path.join(PROJECT_PATH, 'static')
 ]
 
 # Site URL
